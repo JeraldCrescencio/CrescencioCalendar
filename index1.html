@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech Design - Jerald Crescencio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background-color: #111;
+            color: #fff;
+            font-family: 'Orbitron', sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            overflow: hidden;
+        }
+
+        .name-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+       
+        .letter {
+            font-size: 70px;
+            margin: 10px;
+            text-transform: uppercase;
+            letter-spacing: 5px;
+            position: relative;
+            display: inline-block;
+            color: #fff;
+            transition: all 0.3s ease-in-out;
+        }
+
+        
+        .letter.j {
+            color: #0ff;
+            text-shadow: 0 0 10px #0ff, 0 0 20px #0ff, 0 0 30px #0ff;
+        }
+
+        .letter.e {
+            color: #ff007f;
+            text-shadow: 0 0 10px #ff007f, 0 0 20px #ff007f, 0 0 30px #ff007f;
+        }
+
+        .letter.r {
+            color: #ff6a00;
+            text-shadow: 0 0 10px #ff6a00, 0 0 20px #ff6a00, 0 0 30px #ff6a00;
+        }
+
+        .letter.a {
+            color: #00ff88;
+            text-shadow: 0 0 10px #00ff88, 0 0 20px #00ff88, 0 0 30px #00ff88;
+        }
+
+        .letter.l {
+            color: #00b3e6;
+            text-shadow: 0 0 10px #00b3e6, 0 0 20px #00b3e6, 0 0 30px #00b3e6;
+        }
+
+        .letter.d {
+            color: #f5f5f5;
+            text-shadow: 0 0 10px #f5f5f5, 0 0 20px #f5f5f5, 0 0 30px #f5f5f5;
+        }
+
+        .letter.space {
+            font-size: 50px;
+            color: transparent;
+        }
+
+        
+        .letter.c {
+            color: #ffb6c1;
+            text-shadow: 0 0 10px #ffb6c1, 0 0 20px #ffb6c1, 0 0 30px #ffb6c1;
+        }
+
+        .letter.s {
+            color: #ff8c00;
+            text-shadow: 0 0 10px #ff8c00, 0 0 20px #ff8c00, 0 0 30px #ff8c00;
+        }
+
+        .letter.n {
+            color: #32cd32;
+            text-shadow: 0 0 10px #32cd32, 0 0 20px #32cd32, 0 0 30px #32cd32;
+        }
+
+        .letter.i {
+            color: #ff0099;
+            text-shadow: 0 0 10px #ff0099, 0 0 20px #ff0099, 0 0 30px #ff0099;
+        }
+
+        .letter.o {
+            color: #00ffff;
+            text-shadow: 0 0 10px #00ffff, 0 0 20px #00ffff, 0 0 30px #00ffff;
+        }
+
+        .letter.h {
+            color: #ff00ff;
+            text-shadow: 0 0 10px #ff00ff, 0 0 20px #ff00ff, 0 0 30px #ff00ff;
+        }
+
+        .letter.u {
+            color: #ffea00;
+            text-shadow: 0 0 10px #ffea00, 0 0 20px #ffea00, 0 0 30px #ffea00;
+        }
+
+        .letter.g {
+            color: #ff1a1a;
+            text-shadow: 0 0 10px #ff1a1a, 0 0 20px #ff1a1a, 0 0 30px #ff1a1a;
+        }
+
+      
+        .letter:hover {
+            transform: scale(1.2);
+            text-shadow: 0 0 25px #ffffff, 0 0 35px #ffffff, 0 0 45px #ffffff;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="name-container">
+        <!-- "Jerald" -->
+        <div class="letter j">J</div>
+        <div class="letter e">E</div>
+        <div class="letter r">R</div>
+        <div class="letter a">A</div>
+        <div class="letter l">L</div>
+        <div class="letter d">D</div>
+        <div class="letter space"></div>
+        <!-- "Crescencio" -->
+        <div class="letter c">C</div>
+        <div class="letter r">R</div>
+        <div class="letter e">E</div>
+        <div class="letter s">S</div>
+        <div class="letter c">C</div>
+        <div class="letter e">E</div>
+        <div class="letter n">N</div>
+        <div class="letter c">C</div>
+        <div class="letter i">I</div>
+        <div class="letter o">O</div>
+        <div class="letter h"></div>
+        <div class="letter u"></div>
+        <div class="letter g"></div>
+    </div>
+
+</body>
+</html>
